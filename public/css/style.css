@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+img {
+  border-style: none;
+  display: block;
+}
+
+hr {
+  display: none;
+}
+
+em {
+  font-style: normal
+}
+
+input {
+  line-height: auto;
+  vertical-align: middle;
+}
+
+strong.more {
+  color: #c30
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-item:hover {
+  opacity: 0.7;
+} 
+
+.ranking {
+  width: 80%;
+  margin: 40px auto;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.ranking h2 {
+  margin-bottom: 16px;
+}
+
+.more {
+  margin-top: 16px;
+  text-align: right;
+}
+
+.more a {
+  text-decoration: none;
+}
+
+.list-group a {
+  text-decoration: none;
+  margin-bottom: 2vh;
+}
+
+.list-group li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ranking_outline {
+  display: flex;
+}
+
+.ranking_outline p:first-child {
+  margin-right: 10px;
+}
+
+/* login.blade.php */
+
+.login-form {
+  width: 80%;
+  margin: 20vh auto;
+  padding: 5vw;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.login-form h3 {
+  margin-bottom: 16px;
+}
+
+
+.login-form button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* new.blade.php */
+
+.new {
+  width: 80%;
+  margin: 20vh auto;
+  padding: 5vw;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.new h3 {
+  margin-bottom: 16px;
+}
+
+.new button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* edit.blade.php */
+
+.edit-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* mypage.blade.php */
+
+.mypage-title {
+  width: 80%;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mypage-main {
+  width: 80%;
+  margin: 5vh auto 10vh;
+  padding: 5vw;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.mypage-main h4 {
+  margin-bottom: 16px;
+}
+
+/* retire_confirm.blade.php  retire_complete.blade.php */
+
+.retire_confirm {
+  width: 80%;
+  margin: 20vh auto 10vh;
+  padding: 3vw;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.retire_confirm h3 {
+margin-bottom: 10vh;
+}
+
+.retire_complete {
+  width: 80%;
+  margin: 20vh auto 10vh;
+  padding: 3vw;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.retire_complete h3 {
+  margin-bottom: 10vh;
+  }
+
+.retire_complete a {
+  display: block;
+  text-align: center;
+}
+
+/* vote.blade.php */
+ 
+.vote-btn a:first-child {
+  margin-right: 5vw;
+}
+
+.ranking-head a {
+  text-decoration: none;
+}
+
+#vote {
+  display: block;
+  margin: 3vh 0 3vh auto;
+}
+
+
+
+
+
