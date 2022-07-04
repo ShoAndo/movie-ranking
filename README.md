@@ -3,6 +3,10 @@
 - Laravel
 
 #環境構築
+MAMPの起動
+
+.envファイルをMySQLのユーザー、パスワードに変換
+
 ```
 php artisan migrate
 ```
